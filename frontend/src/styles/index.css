@@ -1,0 +1,16 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root {
+  --sidebar-width: 280px;
+  --chat-width: 360px;
+}
+
+html, body, #root { height: 100%; }
+
+.app-shell { height: 100vh; display: grid; grid-template-columns: var(--sidebar-width) 1fr var(--chat-width); grid-template-rows: auto 1fr; }
+.header { grid-column: 1 / -1; }
+.sidebar { grid-column: 1 / 2; }
+.main { grid-column: 2 / 3; }
+.chat { grid-column: 3 / 4; }
