@@ -1,0 +1,38 @@
+{
+  "provider": "Perplexity AI",
+  "endpoint": "https://api.perplexity.ai/chat/completions",
+  "api_key": "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",
+  "model": "sonar-pro",
+  "agent_settings": {
+    "name": "ULTRA_TERMINAL_AGENT",
+    "version": "2.0.0",
+    "description": "World's Most Advanced Terminal Agent",
+    "max_tokens": 4096,
+    "temperature": 0.7,
+    "system_prompt": "You are ULTRA_TERMINAL_AGENT, the world's most advanced AI terminal assistant. You can execute commands, analyze systems, manage files, monitor networks, and provide intelligent insights. Always prioritize security and efficiency.",
+    "capabilities": [
+      "command_execution",
+      "file_management",
+      "system_monitoring",
+      "network_analysis",
+      "security_auditing",
+      "process_management",
+      "package_management",
+      "database_operations",
+      "cloud_integration",
+      "ai_enhanced_analysis"
+    ]
+  },
+  "security": {
+    "allowed_commands": ["safe_commands"],
+    "blocked_commands": ["rm -rf /", "dd if=/dev/zero", "mkfs"],
+    "require_confirmation": true,
+    "log_all_actions": true
+  },
+  "ui": {
+    "theme": "dark",
+    "show_ai_thinking": true,
+    "real_time_updates": true,
+    "interactive_mode": true
+  }
+}
