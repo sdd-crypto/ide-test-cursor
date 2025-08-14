@@ -1,0 +1,44 @@
+# Node
+node_modules/
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+pnpm-debug.log*
+
+# Env
+.env
+.env.local
+.env.*.local
+
+# Logs
+logs
+*.log
+*.log.*
+pids
+*.pid
+*.seed
+
+# Build outputs
+dist/
+build/
+.cache/
+.vite/
+coverage/
+
+# Editor
+.DS_Store
+.idea/
+.vscode/
+
+# Docker
+*.local
+**/*.local
+
+# Frontend
+frontend/.vite
+frontend/node_modules
+frontend/dist
+
+# Backend
+backend/node_modules
+backend/dist

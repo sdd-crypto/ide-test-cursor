@@ -1,0 +1,1 @@
+{"root":["./src/App.tsx","./src/main.tsx","./src/vite-env.d.ts","./src/components/ChatSidebar.tsx","./src/components/Editor.tsx","./src/components/FileExplorer.tsx","./src/components/PreviewPane.tsx","./src/lib/aiCompletion.ts","./src/lib/api.ts","./src/state/useProjectStore.ts"],"version":"5.9.2"}
